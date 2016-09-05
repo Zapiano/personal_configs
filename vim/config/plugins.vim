@@ -1,0 +1,5 @@
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'compactcode/alternate.vim'
