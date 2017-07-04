@@ -3,7 +3,7 @@ source ~/.vim/config/plugins/vundle.vim
 
 " Load configs
 source ~/.vim/config/general/colors.vim
-source ~/.vim/config/general/indentation.vim
+source ~/.vim/config/general/identation.vim
 source ~/.vim/config/general/maps.vim
 source ~/.vim/config/general/screen.vim
 source ~/.vim/config/general/tempfiles.vim
