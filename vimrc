@@ -1,4 +1,4 @@
-Load Vundle
+" Load Vundle
 source ~/.vim/config/plugins/vundle.vim
 
 " Load configs
