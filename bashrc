@@ -11,4 +11,9 @@ alias glg="git log"
 source /usr/locals/share/chruby/chruby.sh
 source /usr/locals/share/chruby/auto.sh
 
-chruby ruby-2.3.0
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export PS1="\e[0;35m\u\e[m \e[0;34m\W\e[m\e[1;31m\$(parse_git_branch)\e[m\e[0;33m:\e[m "
+
