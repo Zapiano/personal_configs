@@ -1,7 +1,7 @@
 # Personal Configs
 A repository with standard config options like aliases for git at .bashrc and configs for .vimrc
 
-## Vim Config
+## How to config vim plugins with Vundle
 
 1. Copy `vimrc` file to home directory as `.vimrc`:
 ```console
@@ -25,3 +25,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git
 ```vim
 :PluginInstall
 ```
+
+### Using Mac
+If you are using Mac, consider using iTerm because vim colors will be displayed 
+very badly in Mac default console. Link here: https://iterm2.com/
