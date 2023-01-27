@@ -1,19 +1,27 @@
-# personal_configs
+# Personal Configs
 A repository with standard config options like aliases for git at .bashrc and configs for .vimrc
 
-## Configurando o Vim
+## Vim Config
 
-1 Copiar o arquivo vimrc para a home como .vimrc
-`cp vimrc ~/.vimrc`
+1. Copy `vimrc` file to home directory as `.vimrc`:
+```console
+cp vimrc ~/.vimrc
+```
 
-2. Copiar a pasta /vim com todo seu conteúdo para a home como /.vim
-`cp -r vim ~/.vim `
+2. Copy `/vim` directory (and everything inside it) to home directory as `/.vim`
+```console
+cp -r vim ~/.vim 
+```
 
-3. Entrar na pasta ~/.vim/bundle, DELETAR a pasta Vundle.vim/ (que estará vazia)
- e clonar o repositório do vundle do github:
-`cd ~/.vim/bundle`
-`rm -r Vundle.vim/`
-`git clone https://github.com/VundleVim/Vundle.vim.git`
+3. Enter `~/.vim/bundle` directory, delete `Vundle.vim/` folder (that should be empty)
+  and clone vundle repo from github: 
+```console
+cd ~/.vim/bundle
+rm -r Vundle.vim/
+git clone https://github.com/VundleVim/Vundle.vim.git
+```
 
-4. Abrir o vim e digitar o comando de instalar plugins no modo Normal
-`:PluginInstall`
+4. Open vim and install plugins (in Normal mode):
+```vim
+:PluginInstall
+```
